@@ -1,0 +1,163 @@
+html{
+    max-width: 1608px; /* Largura máxima */
+    height: 2881px; /* Altura desejada */
+    margin: 0 auto;
+    background-color: #fff;
+}
+body{
+    background-color: #F2F2F2 !important;
+    border: solid 1px #BABABA;
+    font-family: 'Inter', sans-serif !important;
+}
+.container-fluid{
+    background-color: #0C70F2;
+    color: #fff;
+    padding: 1% 10% 1% 10%;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+
+h2{
+    font-size: 25px !important;
+}
+
+#corpo1{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 100px 200px 250px 200px;
+}
+
+.nuvem{
+    margin-top: -8%;
+}
+
+form{
+    margin: 0px 300px 500px 300px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10% 7%;
+}
+
+label{
+    padding: 25px 0px 15px 0px;
+    font-size: 25px !important;
+    color: #000000;
+    margin-left: 10px;
+}
+
+input, col{
+    background-color: #F2F2F2E5 !important;
+    border-radius: 15px !important;
+    border: none !important;
+    padding: 15px 0px 15px 25px !important;
+    font-size: 25px !important;
+    color: #00000080 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.inputLatLong1, .inputLatLong2{
+    padding-right: 2% !important;
+}
+
+.inputLatLong2{
+    margin-left: 4%;
+}
+
+.btn{
+    padding: 5px 330px 5px 330px !important;
+    margin: 15% 0% 0% 0%;
+    font-size: 32px !important;
+    border-radius: 10px !important;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#resultadoCEP{
+    padding-bottom: 25%;
+}
+
+.cabecalhoCEP{
+    padding: 100px 0px 0px 300px;
+}
+.h1CEP{
+    margin-left: 20%;
+}
+    
+.imgCEP{
+    position: absolute;
+    width: 136px;
+    height: 133px;
+    margin-left: 30%;
+    margin-top: -1%;
+    border: none;
+} 
+
+.tabela{
+    width: 1024px !important; 
+    height: 150px; 
+    position: absolute; 
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+
+th{
+    padding: 3% 0% 3% 0% !important;
+    background-color: #0C70F2 !important;
+    color: #fff !important;
+}
+
+tr{
+    text-align: center;
+    font-size: 20px;
+}
+
+td{
+    padding: 5% 0% 5% 0% !important;
+    color: #000000;
+    font-weight: bold;
+}
+#previsaoTempo{
+    display: flex;
+    margin-bottom: 1%;
+}
+.h1Prev{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.imgNuvem2{
+    position: absolute;
+    width: 136px;
+    height: 133px;
+    margin-left: 30%;
+    margin-top: -1%;
+    border: none;
+} 
+
+#resultadoPrevisao {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    width: 1024px; 
+    margin: 0 auto; 
+}
+#latLongR{
+    border: 1px solid #0C70F2!important;
+    border-radius: 30px !important;
+    background-color: #fff !important;
+    color: #000000 !important;
+    margin-bottom: 20% !important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+.rodape{
+    background-color: #0C70F2;
+}
+.pRodape{
+    font-size: 25px;
+}
